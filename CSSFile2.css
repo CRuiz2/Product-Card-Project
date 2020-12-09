@@ -1,27 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-*
-{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
 body
 {
     font-family: 'Roboto', sans-serif;
-}
-a
-{
-    text-decoration: none;
-}
-.product-card {
-    width: 380px;
-    position: relative;
-    box-shadow: 0 2px 7px #dfdfdf;
-    margin: 50px auto;
-    background: #fafafa;
 }
 
 .badge {
@@ -34,6 +13,21 @@ a
     background: red;
     color: #fff;
     padding: 3px 10px;
+}
+
+.product-card {
+    width: 350px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+}
+
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .product-tumb img {
